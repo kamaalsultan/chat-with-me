@@ -1,3 +1,4 @@
+import { Chat } from '@/components/chat'
 import { type Metadata } from 'next'
 
 export const runtime = 'edge'
@@ -15,4 +16,8 @@ export async function generateMetadata({
   return {
     title: 'Chat'
   }
+}
+
+export default async function ChatPage({ params }: ChatPageProps) {
+  return <Chat />
 }
