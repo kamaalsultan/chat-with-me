@@ -6,16 +6,24 @@ import { IconArrowRight } from '@/components/ui/icons'
 
 const exampleMessages = [
   {
-    heading: 'Explain technical concepts',
-    message: `What is a "serverless function"?`
+    heading: 'Tell me about yourself',
+    message: `Can you tell me about yourself in details?`
   },
   {
-    heading: 'Summarize an article',
-    message: 'Summarize the following article for a 2nd grader: \n'
+    heading: 'I want to hire you',
+    message: 'I want to hire you. How can I reach out to you?'
   },
   {
-    heading: 'Draft an email',
-    message: `Draft an email to my boss about the following: \n`
+    heading: 'Share me your resume',
+    message: `Can you share me your resume link?`
+  },
+  {
+    heading: 'What is your life philosophy',
+    message: `Can you tell me about your life philosophy?`
+  },
+  {
+    heading: 'What motivates you as a software engineer',
+    message: `Can you tell me what motivates you as a software engineer?`
   }
 ]
 
@@ -24,18 +32,13 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
     <div className="mx-auto max-w-2xl px-4">
       <div className="rounded-lg border bg-background p-8">
         <h1 className="mb-2 text-lg font-semibold">
-          Welcome to Next.js AI Chatbot!
+          Hi! This is Anthony Byrd.
         </h1>
         <p className="mb-2 leading-normal text-muted-foreground">
-          This is an open source AI chatbot app template built with{' '}
-          <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> and{' '}
-          <ExternalLink href="https://vercel.com/storage/kv">
-            Vercel KV
-          </ExternalLink>
-          .
+          This is an open source AI chatbot app built with &hearts; by <a href='https://github.com/byteballet'>byteballet</a>.
         </p>
         <p className="leading-normal text-muted-foreground">
-          You can start a conversation here or try the following examples:
+          You can start a conversation here or ask following questions:
         </p>
         <div className="mt-4 flex flex-col items-start space-y-2">
           {exampleMessages.map((message, index) => (
