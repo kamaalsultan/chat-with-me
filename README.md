@@ -11,7 +11,7 @@ Welcome to my AI-powered portfolio chatbot! This chatbot is designed to help you
 
 ## Getting Started
 
-To interact with the chatbot, simply visit the [chat-with-me](https://chat-with-me.vercel.app) or follow the instructions below to run it locally.
+To interact with the chatbot, simply visit the [sayme](https://sayme.vercel.app) or follow the instructions below to run it locally.
 
 **Installation:**
 
